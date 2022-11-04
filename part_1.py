@@ -13,9 +13,5 @@ for pkt in PCAP_FILE:
             
 counter = counter/3 # shows three way handshake and calculates TCP flow(s)
 
-<<<<<<< HEAD
-print("The total number of TCP flow(s):", int(counter)) # prints the TCP flow(s)
-=======
 
-print(int(counter))
->>>>>>> db53cd1948dbed6f02cdddf831651ec6f65464c7
+print("The total number of TCP flow(s):", int(counter)) # prints the TCP flow(s)
